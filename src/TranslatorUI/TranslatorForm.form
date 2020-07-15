@@ -17,7 +17,9 @@
           </grid>
         </constraints>
         <properties>
+          <enabled value="false"/>
           <text value="Output collector number"/>
+          <toolTipText value="Collector numbers are not supported by Archidekt"/>
         </properties>
       </component>
       <component id="d3761" class="javax.swing.JButton" binding="translateButton" default-binding="true">
@@ -56,6 +58,7 @@
           <component id="aeb0a" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
             <constraints/>
             <properties>
+              <editable value="false"/>
               <font name="Arial"/>
             </properties>
           </component>
