@@ -15,7 +15,7 @@ public class TranslatorForm {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String inputString = textArea1.getText();
-                textArea2.setText(TextProcessor.process(inputString, outputCollectorNumberCheckBox.isSelected(), appendMaybeboardToEachCheckBox.isSelected()));
+                textArea2.setText(TextProcessor.process(inputString, false, appendMaybeboardToEachCheckBox.isSelected()));
             }
         });
     }
